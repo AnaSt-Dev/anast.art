@@ -14,8 +14,15 @@ header {
     align-items: center;
     padding: 20px;
 }
-f-logo{
+.f-logo{
     width: 100px
+}
+.navbar-no-shadow {
+    background-color: #f3b15b;
+    align-items: center;
+    height: 80px;
+    display: flex
+;
 }
 .f-navigation {
     grid-column-gap: 0px;
@@ -33,12 +40,82 @@ f-logo{
     margin-right: auto;
     padding: 24px 5%;
     font-family: Verdana, Geneva, sans-serif;
+    display: flex;
+}
+.div-block-11 {
+    grid-column-gap: 48px;
+    grid-row-gap: 48px;
+    background-color: #fae2d2;
+    border-radius: 25px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 1420px;
+    padding: 80px;
+    display: flex
+;
+}
+.flex-block-11 {
+    grid-column-gap: 48px;
+    grid-row-gap: 48px;
+}
+.flex-block-10 {
+    background-color: #fffbf4;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.flex-block-9 {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 320px;
+}
+.flex-block-8 {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    background-color: #fffbf4;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+.flex-block-7 {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.flex-block-6 {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.flex-block-5 {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.w-layout-hflex {
+    flex-direction: row;
+    align-items: flex-start;
     display: flex
 ;
 }
 .w-inline-block {
     max-width: 100%;
     display: inline-block;
+}
+.w-layout-vflex {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
 }
 .w-nav {
     z-index: 1000;
@@ -75,7 +152,7 @@ f-logo{
 ;
     position: static;
 }
-.button-8 {
+.project-btn {
     background-color: #a44056;
     border-radius: 50px;
     justify-content: center;
@@ -148,11 +225,34 @@ nav a {
     cursor: pointer;
 }
 .collaborations {
-    text-align: center;
-    margin: 40px 0;
+    width: 100%;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clients-wrapper {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex
+;
+}
+.logos-title-large {
+    background-color: #fffbf4;
+    border-top: 0 solid #000;
+    border-bottom: 0 solid #e4ebf3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px 60px;
+    display: block;
+    position: relative;
 }
 .collaborations img {
-    margin: 10px;
+    margin: 24px;
     height: 40px;
 }
 .grid-container {
@@ -177,6 +277,13 @@ nav a {
     align-items: center;}
 .testimonial { background: C0C6FE}
 
+.paragraph-6 {
+    color: #160042;
+    margin-bottom: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 160%;
+}
 .projects img {
     width: 80px;
     margin-top: 10px;

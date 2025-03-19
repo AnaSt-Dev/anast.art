@@ -61,3 +61,20 @@
         font-size: 1.2rem;
     }
 }
+
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .case-study {
+        flex-direction: column;
+        text-align: center;
+    }
+    .case-study img {
+        margin-bottom: 15px;
+    }
+}

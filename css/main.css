@@ -58,39 +58,44 @@ header {
 .div-block-10 {
     background-color: #c0c6fe;
     border-radius: 25px;
+    height: 600px;
     width: 600px;
 }
 .div-block-9 {
     background-color: #ebb6a0;
-    border-radius: 25px;
+    border-radius: 24px;
     width: 800px;
+    height: 600px;
     padding: 40px;
 }
 .div-block-8 {
     background-color: #fedf6f;
-    border-radius: 25px;
+    border-radius: 24px;
     width: 800px;
+    height: 200px;
     padding: 40px;
 }
 .div-block-7 {
     color: #160042;
     background-color: #c9da8f;
-    border-radius: 25px;
+    border-radius: 24px;
     width: 600px;
+    height: 200px;
     padding: 40px;
 }
 .div-block-6 {
     background-color: #f682a5;
     border-radius: 24px;
     width: 600px;
-    height: 228px;
+    height: 200px;
     padding: 40px;
 }
 .div-block-5 {
     background-color: #c3b2e7;
-    border-radius: 25px;
+    border-radius: 24px;
     width: 800px;
     padding: 40px;
+    height:200px;
 }
 .flex-block-11 {
     grid-column-gap: 48px;
@@ -114,11 +119,12 @@ header {
 .flex-block-8 {
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    background-color: #fffbf4;
     justify-content: center;
     align-items: center;
     padding-top: 140px;
     padding-bottom: 140px;
+    margin-left: 40;
+    margin-right: 40;
 }
 .flex-block-7 {
     grid-column-gap: 20px;
@@ -190,8 +196,7 @@ header {
     margin-bottom: 0;
     padding-top: 100px;
     padding-bottom: 100px;
-    display: flex
-;
+    display: flex;
     position: static;
 }
 .project-btn {
@@ -202,9 +207,9 @@ header {
     width: auto;
     margin-left: 0;
     margin-right: 0;
-    padding: 12 40px;
+    padding: 24 48px;
     font-family: Poppins, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 80px;
     display: flex
@@ -247,7 +252,8 @@ nav a {
 }
 .hero {
     text-align: center;
-    padding: 50px 20px;
+    padding: 120px 80px;
+    justify-content: space-between;
 }
 .hero h1 {
     font-size: 32px;

@@ -1,189 +1,333 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AnaSt: Branding, Illustrations and Web Design Services in Switzerland</title>
-        <meta content="Freelance designer and illustrator based in St. Gallen, Switzerland. I specialise in providing custom design solutions for both emerging startups and established enterprise companies." name="description">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <div class="navbar-no-shadow">
-                <div data-collapse="medium" 
-                    data-animation="default" 
-                    data-duration="300" 
-                    data-easing="ease-in-back" 
-                    data-easing2="ease-in-out-back" 
-                    data-no-scroll="1" role="banner" 
-                    class="f-navigation w-nav">
-                        <div class="f-navigation-container">
-                            <a href="http://www.anast.art" class="w-inline-block">
-                                <img width="124" loading="lazy" alt="" src="anast-logo.png" class="f-logo"></a>
-                                <div class="f-navigation-r">
-                                </div>
-                            </div>
-                            <div class="f-navigation-menu-button w-nav-button" 
-                                aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" 
-                                aria-expanded="false">
-                                <div class="icon w-icon-nav-menu">
-                                </div>
-                            </div>
-                            <nav role="navigation" class="f-navigation-l w-nav-menu">
-                                <a href="http://www.anast.art/about" class="f-navigation-link w-nav-link">About</a>
-                                <a href="http://anast.art/projects" class="f-navigation-link w-nav-link">Projects</a>
-                                <a href="http://anast.art/contact" class="f-navigation-link w-nav-link">Contact</a>
-                            </nav>
-                            <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0">
-                    </div>
-                </div>
-            </div>
-        </header>
-        <section class="hero">
-            <h1>Empowering Businesses Through Human-Centric Design.</h1>
-            <p>Navigating business journeys with visionary solutions at every step.</p>
-            <button id="project-btn">Projects</button>
-        </section>
-        <section class="logos-title-large">
-            <p>Collaborated with:</p>
-            <div class="collaborations">
-                <div class="clients-wrapper">
-                    <img src="bossbabe.png" alt="Bossbabe">
-                    <img src="sawgrass.png" alt="Sawgrass">
-                    <img src="les-ormes.png" alt="Les Ormes">
-                    <img src="sqlpipe.png" alt="SQLpipe">
-                    <img src="vistaprint.png" alt="Vistaprint">
-                    <img src="xwp.png" alt="XWP">
-                </div>
-            </div>
-        </section>
+<html>
 
-        <div class="w-layout-vflex flex-block-8">
-            <div class="w-layout-hflex flex-block-5">
-                <div class="div-block-5">
-                    <h3 class="heading-3">Branding &amp; Identity</h3>
-                    <p class="paragraph-8">Shaping a powerful visual identity through research, positioning, and practical brand guidelines for consistent implementation across assets.</p>
-                </div>
-                <div class="div-block-6">
-                    <h3 class="heading-3">Illustration</h3>
-                    <p class="paragraph-8">Custom vector or raster illustrations for screens or print.</p>
+<head>
+    <title>anast.art</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <navigation id="navigation">
+        <a href="\website.html">
+            <img class="logo" src="img\logos\AnaSt Logo.png" alt="AnaSt Logo"></img></a>
+        <div>
+            <button class="tertiary-button">
+                <a href="about.html">About</a>
+            </button>
+            <button class="tertiary-button">
+                <a href="\projects.html">Projects</a>
+            </button>
+            <button class="tertiary-button">
+                <a href="\services.html">Services</a>
+            </button>
+            <button class="tertiary-button">
+                <a href="\resources.html">Resources</a>
+            </button>
+            <button class="tertiary-button">
+                <a href="\contact.html">Contact</a>
+            </button>
+        </div>
+    </navigation>
+
+    <!-- Hero -->
+    <section class="section">
+        <h1 class="heading1">Dress to impress. Design for success.</h1>
+        <p class="paragraph1">Navigating business journeys with visionary solutions at every step.</p>
+        <div id="wrapper_centered">
+            <button class="primary-button">Portfolio</button>
+            <button class="secondary-button">Services</button>
+        </div>
+    </section>
+
+    <!-- Logos -->
+    <div id="wrapper_logos">
+        <img src="\img\logos\Bossbabe.png" alt="logo of bossbabe">
+        <img src="\img\logos\Sawgrass.png" alt="logo of sawgrass">
+        <img src="\img\logos\sqlpipelogo.png" alt="logo of sqlpipe">
+        <img src="\img\logos\xwp.png" alt="logo of xwp">
+        <img src="\img\logos\Vistaprint.png" alt="logo of vistaprint">
+    </div>
+
+    <!-- Bento Grid 2 -->
+    <div class="container">
+        <div class="grid">
+            <div style="grid-column: span 2; 
+            grid-row: span 2; 
+            background-color: #c3b2e7; 
+            border-radius: 43.2px; 
+            display: flex; 
+            align-items: left; 
+            justify-content: left; 
+            padding-left: 32px; padding-top:32px; padding-bottom:32px; padding-right: 32px;">
+                <section class="box">
+                    <h class="heading2">Branding & Identity</h>
+                    <p class="paragraph3">Shaping a powerful visual identity through research, positioning, and
+                        practical brand guidelines for consistent implementation.</p>
+                </section>
+            </div>
+
+            <div style="grid-column: span 1; 
+            grid-row: span 2; 
+            background-color: #f682a5; 
+            border-radius: 43.2px; 
+            display: flex; 
+            align-items: left; 
+            justify-content: left; 
+            padding-left: 32px; padding-top:32px; padding-bottom:32px; padding-right: 32px;">
+                <section class="box">
+                    <h class="heading2">Illustration</h>
+                    <p class="paragraph3">Custom illustrations for vectors and screens.</p>
+                </section>
+            </div>
+
+            <div style="grid-column: span 1; 
+                    grid-row: span 2; 
+                    background-color: #c9da8f; 
+                    border-radius: 43.2px; 
+                    display: flex; 
+                    align-items: left; 
+                    justify-content: left; 
+                    padding-left: 32px; padding-top:32px; padding-bottom:32px; padding-right: 32px;">
+                <section class="box">
+                    <h class="heading2">Lettering</h>
+                    <p class="paragraph3">Creativity through letters.</p>
+                </section>
+            </div>
+
+            <div style="grid-column: span 2; 
+                    grid-row: span 2; 
+                    background-color: #fedf6f; 
+                    border-radius: 43.2px; 
+                    display: flex; 
+                    align-items: left; 
+                    justify-content: left; 
+                    padding-left: 32px; padding-top:32px; padding-bottom:32px; padding-right: 32px;">
+                <section class="box">
+                    <h class="heading2">UI & UX, Web Design</h>
+                    <p class="paragraph3">Responsive designs, made in Figma.</p>
+                </section>
+                <div class="cross-fade">
+                    <img src="\img\images\Figma-logo01.png" />
+                    <img src="\img\images\Figma-logo02.png" />
                 </div>
             </div>
-            <div class="w-layout-hflex flex-block-6">
-                <div class="div-block-7">
-                    <h3 class="heading-3">Lettering</h3>
-                    <p class="paragraph-6">Creativity through letters.<br></p>
-                </div>
-                <div class="div-block-8">
-                    <h3 class="heading-3">UI &amp; UX, Web&nbsp;Design</h3>
-                    <p class="paragraph-6">Responsive designs made in Figma. 100% user-centered.<br></p>
-                    <img src="images/figma.png" loading="lazy" width="10" alt="Figma logo and toolbar screenshot. " class="image-13">
+
+            <div style="grid-column: span 2; 
+                    grid-row: span 2; 
+                    background-color: #ebb6a0; 
+                    border-radius: 43.2px; 
+                    display: flex; 
+                    align-items: left; 
+                    justify-content: left; 
+                    padding-left: 32px; padding-top:32px; padding-bottom:32px; padding-right: 32px;">
+                <section class="box">
+                    <h class="heading2">1,000+ Completed<br>Projects</h>
+                    <p class="paragraph3">I have experience working with:
+                        <br>
+                        - Adobe Creative Suite
+                        <br>
+                        - Figma
+                        <br>
+                        - Procreate
+                    </p>
+                </section>
+                <div class="cross-fade">
+                    <img src="\img\images\Image01.png" />
+                    <img src="\img\images\Image02.png" />
                 </div>
             </div>
-                <div class="w-layout-hflex flex-block-7">
-                    <div class="div-block-9">
-                        <h3 class="heading-3">1, 000+ Completed Projects</h3>
-                        <p class="paragraph-6">I have experience working with:<br>- Adobe Creative Suite<br>- Figma<br>- Procreate<br></p>
-                        <img src="images/frames.png" loading="lazy" width="120" height="120" alt="" class="image-12">
-                    </div>
-                        <div class="div-block-10">
-                            <div class="w-layout-hflex flex-block-4">
-                                <div class="w-layout-hflex">
-                                    <img src="star.svg" loading="lazy" alt="">
-                                    <img src="star.svg" loading="lazy" alt="">
-                                    <img src="star.svg" loading="lazy" alt="" class="image-11">
-                                    <img src="star.svg" loading="lazy" alt="">
-                                    <img src="star.svg" loading="lazy" alt="">
-                                </div>
-                                    <h5 class="heading-5">"We loved the original concepts and artwork. We are very excited about our new designs!"</h5>
-                                    <p class="paragraph-6">- Lindsay Sport @Sawgrass<br></p>
-                            </div>
-                        </div>
-                </div>
+
+            <div style="grid-column: span 1; 
+                    grid-row: span 2; 
+                    background-color: #c0c6fe; 
+                    border-radius: 43.2px; 
+                    display: flex; 
+                    align-items: left; 
+                    justify-content: left; 
+                    padding-left: 32px; padding-top:32px; padding-bottom:32px; padding-right: 32px;">
+                <section class="box">
+                    <section style="display:flex; justify-content:space-between;">
+                        <img src="\img\images\Star.svg" alt="star rating">
+                        <img src="\img\images\Star.svg" alt="star rating">
+                        <img src="\img\images\Star.svg" alt="star rating">
+                        <img src="\img\images\Star.svg" alt="star rating">
+                        <img src="\img\images\Star.svg" alt="star rating">
+                        <button class="quarternary-button">
+                            <a href="https://en.99designs.ch/profiles/rockrosee1/about">220+ Reviews</a>
+                        </button>
+                    </section>
+                    <section style="margin-top:24px;">
+                        <h class="heading5">"We loved the original concepts and artwork. We are very excited about our
+                            new designs!"</h>
+                        <p class="paragraph3" style="margin-top:24px;"> - Lindsay Sport @Sawgrass</p>
+                    </section>
             </div>
         </div>
+    </div>
 
-        <div class="w-layout-hflex flex-block-10">
-            <div class="div-block-11">
-                <div class="w-layout-hflex flex-block-11">
-                    <h2>Step-by-step Process</h2>
-                    <div class="w-layout-hflex flex-block-9">
-                        <p class="paragraph-6">01 / Brief<br>‍<br>After reaching out, we will meet to cover your project needs and timeline.<br></p>
-                    </div>
-                        <div class="w-layout-hflex flex-block-9"><p class="paragraph-6">02 / Ideation<br><br>I will explore variety of possible solutions for the design.<br></p>
-                        </div>
-                        <div class="w-layout-hflex flex-block-9">
-                            <p class="paragraph-6">03 / Deliverables<br><br>I will export and hand you over the final files in both vector and raster formats.<br></p>
-                        </div>
-                    </div>
-                </div>
+    <!-- Process -->
+    <div id="wrapper_process">
+        <div style="text-align:center">
+            <h class="heading3">Step-by-step Process</h>
+        </div>
+        <div id="wrapper" style="width:100%; justify-content:space-evenly">
+            <div style="margin-right:20px">
+                <h class="heading5">01 / Brief</h>
+                <p class="paragraph2">After reaching out, we will meet to cover <br> your project needs and timeline.
+                </p>
             </div>
-        <!-- <div class="grid-container">
-            <div class="grid-item branding"> <h3>Branding & Identity</h3> <p>Shaping a powerful visual identity through research, positioning, and guidelines.</p> </div>
-            <div class="grid-item illustration"> <h3>Illustration</h3> <p>Custom vector or raster illustrations for screens or print.</p> </div>
-            <div class="grid-item lettering"> <h3>Lettering</h3> <p>Creativity through letters.</p> </div>
-            <div class="grid-item uiux"> <h3>UI & UX, Web Design</h3> <p>Responsive designs made in Figma. 100% user-centered.</p> </div>
-            <div class="grid-item projects"> <h3>1,000+ Completed Projects</h3> <p>Experience with Adobe Creative Suite, Figma, Procreate.</p> <img src="placeholder.jpg" alt="Artwork"></div>
-            <div class="grid-item testimonial"> <h3>⭐⭐⭐⭐⭐</h3> <p>"We loved the original concepts and artwork. Excited for new designs!"</p> <p>- Lindsay Sport @Sawgrass</p> </div>
-        </div> -->
-        <!-- <section class="process">
-            <h2>Step-by-step Process</h2>
-            <div class="process-step">
-                <h3>01 / Brief</h3>
-                <p>After reaching out, we will meet to cover your project needs and timeline.</p>
+            <div style="margin-right:20px">
+                <h class="heading5">02 / Ideation</h>
+                <p class="paragraph2">I will explore variety of possible <br> solutions for the design.</p>
             </div>
-            <div class="process-step">
-                <h3>02 / Ideation</h3>
-                <p>I will explore a variety of possible solutions for the design.</p>
+            <div>
+                <h class="heading5">03 / Deliverables</h>
+                <p class="paragraph2">I will export and hand you over the final <br> files in both vector and raster
+                    formats.</p>
             </div>
-            <div class="process-step">
-                <h3>03 / Deliverables</h3>
-                <p>I will export and hand you over the final files in both vector and raster formats.</p>
-            </div>
-        </section> -->
-    
-        <!-- Design Case Studies Section -->
-        <section class="case-studies">
-            <h2>Design Case Studies</h2>
-            <div class="case-study">
-                <img src="mother-owl-packaging.jpg" alt="Mother Owl Packaging Designs">
-                <div>
-                    <h3>Brand Identity for Mother Owl</h3>
-                    <p>Building a brand identity and marketing campaign for a refillable cosmetics brand.</p>
-                    <a href="mother-owl-case-study.html">Read more</a>
-                </div>
-            </div>
-            <div class="case-study">
-                <img src="xwp-illustrations.jpg" alt="XWP Blog Illustrations">
-                <div>
-                    <h3>Blog Illustrations for XWP</h3>
-                    <p>Vector illustrations for one of the leading enterprise WordPress agencies.</p>
-                    <a href="xwp-case-study.html">Read more</a>
-                </div>
-            </div>
-            <div class="case-study">
-                <img src="botanical-syrups-website.jpg" alt="Botanical Syrups Website">
-                <div>
-                    <h3>Botanical Syrups</h3>
-                    <p>E-commerce website for Australia's best homemade organic syrups.</p>
-                    <a href="botanical-syrups-case-study.html">Read more</a>
-                </div>
-            </div>
-            <!-- Add more case studies as needed -->
+        </div>
+    </div>
+
+    <!-- Design Case Studies -->
+    <div id="wrapper_heading">
+        <h class="heading3">Design Case Studies</h>
+    </div>
+
+    <div id="wrapper" style="justify-content:center">
+        <section style="width:370px; margin-right:120px">
+            <button class="tag">Brand Identity</button>
+            <br>
+            <h class="heading4" style="width:370px">
+                <a href="https://www.anast.art/mother-owl-brand-identity"> Brand Identity for Mother Owl</a>
+            </h>
+            <p class="paragraph2">Building a brand identity for a refillable cosmetics brand.</p>
+            <br>
+            <button class="quarternary-button">Read more</button>
         </section>
-    
-        <!-- Footer -->
-        <footer>
-            <p>© 2024 AnaSt Art. All rights reserved</p>
-        </footer>
-    
-        <script src="script.js"></script>
-    </body>
-    </html>
+        <section>
+            <a href="https://www.anast.art/mother-owl-brand-identity">
+                <img class="blog-thumbnail" src="\img\images\mother_owl_branding.png" alt="Mother Owl Packaging">
+            </a>
+        </section>
+
+    </div>
+
+    <div id="wrapper" style="justify-content:center">
+        <section>
+            <a href="https://www.anast.art/mother-owl-brand-identity">
+                <img class="blog-thumbnail-small" src="\img\images\lets cook.jpg"
+                    alt="Mobile UI Mockups for a Cooking Website.">
+            </a>
+        </section>
+        <section style="width:600px; margin-left:120px">
+            <button class="tag">UI / UX</button>
+            <br>
+            <h class="heading4">
+                <a href="https://www.anast.art/lets-cook"> Serving up a Responsive Design System for Let's Cook</a>
+            </h>
+            <p class="paragraph2">Competitor analysis, brand guidelines, and web design for a cooking company.</p>
+            <br>
+            <button class="quarternary-button">Read more</button>
+        </section>
+    </div>
+
+    <div id="wrapper" style="width:auto; justify-content:center; margin-bottom:80p">
+        <div>
+            <section>
+                <a href="https://www.anast.art/xwp-illustrations">
+                    <img class="blog-thumbnail-medium" src="\img\images\Locals-Guide-to-Taipei.jpg"
+                        alt="Illustration of a night in Taipei.">
+                </a>
+            </section>
+            <section>
+                <button class="tag" style="margin-top:24px">Illustrations</button>
+                <br>
+                <h class="heading4">
+                    <a href="https://www.anast.art/xwp-illustrations"> Blog Illustrations for XWP</a>
+                </h>
+                <p class="paragraph3">Vector illustrations for one of the leading enterprise WordPress agencies.</p>
+                <br>
+                <button class="quarternary-button">Read more</button>
+            </section>
+        </div>
+        <div style="margin-left:64px">
+            <section>
+                <a href="https://www.anast.art/botanical-syrups">
+                    <img class="blog-thumbnail-xsmall" src="\img\images\Botanical Syrups.jpg"
+                        alt="Botanical Syrups Website">
+                </a>
+            </section>
+            <section>
+                <button class="tag" style="margin-top:24px">UI / UX</button>
+                <br>
+                <h class="heading4">
+                    <a href="https://www.anast.art/botanical-syrups">Botanical Syrups</a>
+                </h>
+                <p class="paragraph3">E-commerce website for Australia's best homemade organic syrups.</p>
+                <br>
+                <button class="quarternary-button">Read more</button>
+            </section>
+        </div>
+    </div>
+
+    <!-- Newsletter -->
+    <div id="wrapper_text" style="position:relative; z-index:2; margin-bottom:240px">
+        <h class="heading3">Let's Work Together!</h>
+        <p class="paragraph3" style="margin-top:24px">I am always excited to start new design projects, so drop me a
+            line! ✌️</p>
+        <div id="wrapper_form" style="position:absolute; z-index:1;" class="offset">
+            <div>
+                <label for="Name">
+                    <p class="paragraph2">Name:</p>
+                </label>
+                <input type="text" id="Name" name="Name" class="input">
+            </div>
+            <br>
+            <div>
+                <label for="E-mail:">
+                    <p class="paragraph2">E-mail:</p>
+                </label>
+                <input type="text" id="E-mail" name="E-mail" class="input">
+            </div>
+            <br>
+            <div>
+                <label for="Message:">
+                    <p class="paragraph2">Message:</p>
+                </label>
+                <textarea type="text" id="Message" name="Message"
+                    style="width:500px; min-width:500px; max-width:500px;
+                   height: auto; min-height:80px; max-height:240px; border-color: #160042; border-radius:20px; border-width:1px; font-family:'Poppins'; font-size:16px; font-weight:regular; padding-left:24px; padding-top:12px; position:relative;"></textarea>
+            </div>
+            <button class="primary-button" style="margin-top:32px">Send message</button>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer id="footer" style="width:auto">
+        <p class="paragraph3">©AnaSt &#183; 2024 &#183; All rights reserved </p>
+        <div class="navigation" style="margin-left:500px;">
+            <a href="https://dribbble.com/AnaStoyanova">
+                <img src="\img\images\Dribbble.png" alt="Dribbble Portfolio" style="margin-left:24px;">
+            </a>
+            <a href="https://www.behance.net/rockrosee">
+                <img src="\img\images\Behance.png" alt="Behance Portfolio" style="margin-left:24px;">
+            </a>
+            <a href="https://www.instagram.com/anast_design/">
+                <img src="\img\images\Instagram.png" alt="Instagram Portfolio" style="margin-left:24px;">
+            </a>
+            <a href="https://www.linkedin.com/in/ana-stoyanova/">
+                <img src="\img\images\LinkedIn.png" alt="LinkedIn" style="margin-left:24px;">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
